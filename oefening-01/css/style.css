@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+li {
+  border: 1px solid gray;
+  flex-grow: 1;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #d9d5de;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+@media screen {
+}
+.lijst-1 {
+  flex-direction: row;
+}
+
+.kleur-1 {
+  color: #0d6efd;
+}
+
+.kleur-2 {
+  color: #198754;
+}
+.kleur-3 {
+  color: #0dcaf0;
+}
+.kleur-4 {
+  color: #ffc107;
+}
+.kleur-5 {
+  color: #dc3545;
+}
+.kleur-6 {
+  color: #ffffff;
+}
